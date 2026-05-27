@@ -72,6 +72,26 @@ a {
     border-radius: 8px;
 }
 
+.workflow-step {
+    height: 100%;
+    padding: 1.25rem;
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+.step-number {
+    display: inline-grid;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    place-items: center;
+    color: #ffffff;
+    background: var(--bs-primary);
+    border-radius: 50%;
+    font-weight: 700;
+}
+
 .demo-video {
     display: block;
     width: 100%;
