@@ -97,6 +97,29 @@ a {
     object-fit: contain;
 }
 
+.video-main {
+    align-items: start;
+}
+
+.video-section {
+    width: min(100%, 64rem);
+}
+
+.video-section p {
+    margin: 0 0 1rem;
+    color: var(--muted);
+    font-size: 1.05rem;
+}
+
+.demo-video {
+    display: block;
+    width: 100%;
+    max-height: calc(100vh - 14rem);
+    background: #000000;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
 .header-logo-image,
 .header-logo {
     display: block;
