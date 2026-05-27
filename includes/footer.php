@@ -1,5 +1,3 @@
-    <footer class="site-footer">
-        <p>&copy; <?= date('Y') ?> Hello App. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+<footer class="site-footer">
+    <p>&copy; <?= date('Y') ?> WA9NNN. All rights reserved.</p>
+</footer>
